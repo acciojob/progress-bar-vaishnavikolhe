@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+* {
+    background-color: lightblue;
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    height: 300px;
+    /* width: 200px; */
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 200px;
+}
+
+.one {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.one1 {
+    padding: 20px;
+    border: 4px solid blue;
+    border-radius: 50%;
+}
+
+.line {
+    height: 3px;
+    background-color: gray;
+    flex-grow: 1;
+}
+
+.line1 {
+    height: 3px;
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.top {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    /* border: 2px solid blue; */
+    align-items: center;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15%;
+    padding: 20px;
+    width: 120px;
+}
